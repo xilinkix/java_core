@@ -70,7 +70,7 @@ public class Homework1 {
         double a = 3;
         double b = 5;
         double c = Math.sqrt(a + b);
-        System.out.println("Продвинутый уровень: задача №2" + '\n' + '\n' + "a=3, b=5" + '\n' +"(a + b)^2 = " + c);
+        System.out.println("Продвинутый уровень: задача №2" + '\n' + '\n' + "a=3, b=5" + '\n' + "(a + b)^2 = " + c);
 
         //Задача №3
         //Создать два массива чисел:
