@@ -13,7 +13,7 @@ public class Homework1 {
         char newLine = '\n';
         world = world.toLowerCase();
         String hiWorld = hi.trim() + world + newLine;
-        System.out.println(hiWorld.repeat(3));
+        System.out.println("Базовый уровень: задача №1 " + '\n' +'\n' + hiWorld.repeat(3));
         //Создать из трех переменных единую строку,
         //Привести к правильному виду (Ниже) используя String.trim()
         //затроить (Можно вызвать тольку одну команду System.out.println())
@@ -32,7 +32,8 @@ public class Homework1 {
         float growth = 1.71F;
         int massa = 73;
         float imt = massa / (growth * growth);
-        System.out.println("Ваш индекс массы тела равен " + imt);
+        System.out.println("Базовый уровень: задача №2" + '\n');
+        System.out.println("Ваш индекс массы тела равен " + imt + '\n');
 
 
 
@@ -43,24 +44,33 @@ public class Homework1 {
         //Ожидаемый результат:
         //abcde
         //abche
+        System.out.println("Базовый уровень: задача №3" + '\n');
         char[] newArray = new char[]{'a', 'b', 'c', 'd', 'e'};
         System.out.println(newArray);
         newArray[3] = 'h';
         System.out.println(newArray);
+        System.out.print('\n');
 
 
 
         //Продвинутый уровень
         //Задача №1
         //Произвести преобразование текста "234" в число типа int и прибавить к этому числу длину строки "some_text"
-        //String number = 234
+
+        String text = "234";
+        int aa = Integer.parseInt(text);
+        String text2 = "some_text";
+        int bb = text2.length();
+        int cc = aa + bb;
+        System.out.println("Продвинутый уровень: задача №1 " + '\n' + '\n' + cc);
+        System.out.print('\n');
 
         //Задача №2
         //Посчитать (a+b)^2 = ?, при a=3, b=5
         double a = 3;
         double b = 5;
         double c = Math.sqrt(a + b);
-        System.out.println("a=3, b=5" + '\n' +"(a + b)^2 = " + c);
+        System.out.println("Продвинутый уровень: задача №2" + '\n' + '\n' + "a=3, b=5" + '\n' +"(a + b)^2 = " + c);
 
         //Задача №3
         //Создать два массива чисел:
@@ -76,6 +86,8 @@ public class Homework1 {
 
         //Задача №4
         //В слове "Hello world!" заменить l на r, сделать все буквы заглавными, выбрать первые 8 символов, вывести на экран
+        String HelloWorld = "Hello World!";
+
 
         //Экспертный уровень
         //Задача №1
