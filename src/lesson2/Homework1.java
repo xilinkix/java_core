@@ -40,6 +40,13 @@ public class Homework1 {
         //Произвести расчет индекса массы тела (вес) / (рост * рост) используя переменные, вывести на экран
         //Пример результата вывода на экран:
         //21.0345645
+        double growth = 1.71;
+        int massa = 73;
+        double imt = massa / (growth * growth);
+        System.out.println("Ваш индекс массы тела равен " + imt);
+
+
+
 
         //Задача №3
         //Создать из массива букв a,b,c,d,e, строку,вывести на экран , поменять в массиве 4 букву по счету на h,
@@ -47,6 +54,11 @@ public class Homework1 {
         //Ожидаемый результат:
         //abcde
         //abche
+        char[] newArray = new char[]{'a', 'b', 'c', 'd', 'e'};
+        System.out.println(newArray);
+        newArray[3] = 'h';
+        System.out.println(newArray);
+
 
 
         //Продвинутый уровень
