@@ -83,10 +83,16 @@ public class Homework1 {
         //1,2,5,7,10,2,3,2,17,15,2,6,10,119,150
         //(первый массив - 1,2,5,7,10), (второй массив - 2,3,2,17,15),
         //(результат перемножения - (1*2), (2*3), (5*2), (7*17), (10*15)
-
+//        int[] array1 = new int[] {1,2,5,7,10};
+//        int[] array2 = new int[] {2,3,2,17,15};
+//        System.out.println(array3);
         //Задача №4
         //В слове "Hello world!" заменить l на r, сделать все буквы заглавными, выбрать первые 8 символов, вывести на экран
-        String HelloWorld = "Hello World!";
+       // String[] helloWorld = new String[] {"Hello world!"};
+        // System.out.println(helloWorld);
+
+
+
 
 
         //Экспертный уровень
