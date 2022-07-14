@@ -23,8 +23,7 @@ public class Homework1 {
 //      String hi2 = hi.trim();
         world = world.toLowerCase();
         String hiWorld = hi.trim() + world + newLine;
-        String hiWorld2 = hiWorld.repeat(3);
-        System.out.println(hiWorld2);
+        System.out.println(hiWorld.repeat(3));
         //Создать из трех переменных единую строку,
         //Привести к правильному виду (Ниже) используя String.trim()
         //затроить (Можно вызвать тольку одну команду System.out.println())
@@ -64,6 +63,7 @@ public class Homework1 {
         //Продвинутый уровень
         //Задача №1
         //Произвести преобразование текста "234" в число типа int и прибавить к этому числу длину строки "some_text"
+        //String number = 234
 
         //Задача №2
         //Посчитать (a+b)^2 = ?, при a=3, b=5
