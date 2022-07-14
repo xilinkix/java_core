@@ -8,15 +8,6 @@ public class Homework1 {
         //Базовый уровень
         //Задача №1
         //Дано (переменные ниже менять нельзя)
-//
-//       String hi = "                Hello ";
-//       String world = " WoRld!";
-//       char newLine = '\n';
-//       String hi2 = hi.replaceAll("                Hello ", "Hello");
-//       world = world.toLowerCase();
-//       String hiWorld = hi2 + world + newLine;
-//       String hiWorld2 = hiWorld.repeat(3);
-//       System.out.print(hiWorld2);
         String hi = "                Hello ";
         String world = " WoRld!";
         char newLine = '\n';
