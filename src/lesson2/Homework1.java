@@ -20,7 +20,6 @@ public class Homework1 {
         String hi = "                Hello ";
         String world = " WoRld!";
         char newLine = '\n';
-//      String hi2 = hi.trim();
         world = world.toLowerCase();
         String hiWorld = hi.trim() + world + newLine;
         System.out.println(hiWorld.repeat(3));
