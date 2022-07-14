@@ -29,9 +29,9 @@ public class Homework1 {
         //Произвести расчет индекса массы тела (вес) / (рост * рост) используя переменные, вывести на экран
         //Пример результата вывода на экран:
         //21.0345645
-        double growth = 1.71;
+        float growth = 1.71F;
         int massa = 73;
-        double imt = massa / (growth * growth);
+        float imt = massa / (growth * growth);
         System.out.println("Ваш индекс массы тела равен " + imt);
 
 
