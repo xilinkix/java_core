@@ -93,7 +93,6 @@ public class Homework1 {
         }
         for (int i = 0; i < ar2.length; i++ ) {
             ar3[count++] = ar2[i];
-            count++;
         }
 
         //Задача №4
