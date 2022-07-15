@@ -83,9 +83,19 @@ public class Homework1 {
         //1,2,5,7,10,2,3,2,17,15,2,6,10,119,150
         //(первый массив - 1,2,5,7,10), (второй массив - 2,3,2,17,15),
         //(результат перемножения - (1*2), (2*3), (5*2), (7*17), (10*15)
-//        int[] array1 = new int[] {1,2,5,7,10};
-//        int[] array2 = new int[] {2,3,2,17,15};
-//        int[] array3 = new int[] {};
+        int[] ar1 = new int[] {1,2,5,7,10};
+        int[] ar2 = new int[] {2,3,2,17,15};
+        int[] ar3 = new int[] {ar1.length + ar2.length};
+        int count = 0;
+        for (int i = 0; i < ar1.length; i++ ) {
+            ar3[i] = ar1[i];
+            count++;
+        }
+        for (int i = 0; i < ar2.length; i++ ) {
+            ar3[count++] = ar2[i];
+            count++;
+        }
+
         //Задача №4
         //В слове "Hello world!" заменить l на r, сделать все буквы заглавными, выбрать первые 8 символов, вывести на экран
         System.out.println("Продвинутый уровень: задача №4" + '\n');
