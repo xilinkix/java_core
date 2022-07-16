@@ -91,14 +91,16 @@ public class Homework1 {
         int[] ar3 = new int [ar1.length + ar2.length * 2];
         int count = 0;
         for (int i = 0; i < ar1.length; i++ ) {
-            ar3[i] = ar1[i];
+            ar3[count] = ar1[i];
             count++;
         }
         for (int i = 0; i < ar2.length; i++ ) {
-            ar3[count++] = ar2[i];
+            ar3[count] = ar2[i];
+            count++;
         }
         for (int i = 0; i < ar1.length; i++) {
-            ar3[count++] = ar2[i] * ar1[i];
+            ar3[count] = ar2[i] * ar1[i];
+            count=count+1;
 
         }
 
