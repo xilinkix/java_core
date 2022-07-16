@@ -1,5 +1,8 @@
 package lesson2;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 /**
  * Домашка №1
  */
@@ -96,9 +99,10 @@ public class Homework1 {
         }
         for (int i = 0; i < ar1.length; i++) {
             ar3[count++] = ar2[i] * ar1[i];
-            count++;
+
         }
-        System.out.println(ar3);
+
+        System.out.println(Arrays.toString(ar3));
 
         //Задача №4
         //В слове "Hello world!" заменить l на r, сделать все буквы заглавными, выбрать первые 8 символов, вывести на экран
