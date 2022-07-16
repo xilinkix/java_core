@@ -85,7 +85,7 @@ public class Homework1 {
         //(результат перемножения - (1*2), (2*3), (5*2), (7*17), (10*15)
         int[] ar1 = new int[] {1,2,5,7,10};
         int[] ar2 = new int[] {2,3,2,17,15};
-        int[] ar3 = new int[] {ar1.length + ar2.length};
+        int[] ar3 = new int [ar1.length + ar2.length];
         int count = 0;
         for (int i = 0; i < ar1.length; i++ ) {
             ar3[i] = ar1[i];
