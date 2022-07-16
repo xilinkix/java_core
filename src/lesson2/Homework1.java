@@ -94,7 +94,7 @@ public class Homework1 {
         for (int i = 0; i < ar2.length; i++ ) {
             ar3[count++] = ar2[i];
         }
-        for (int i = 0; i < count++; i++) {
+        for (int i = 0; i < ar1.length; i++) {
             ar3[count++] = ar2[i] * ar1[i];
             count++;
         }
